@@ -20,6 +20,7 @@ end
 
 def kesha_maker(array)
   i = 0
+  array[2] = "$"
   while i < array.length
   yield (array[i])
   i += 1
