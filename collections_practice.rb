@@ -19,10 +19,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array[2] ="$"
   i = 0
   while i < array.length
-  yield (array[i])
+  yield {array[2] = "$" (array[i])}
   i += 1
   end
   array
