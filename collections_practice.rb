@@ -20,7 +20,7 @@ end
 
 def kesha_maker(array)
   i = 0
-  array[2] = "$"
+  array.slice(2) = "$"
   while i < array.length
   i += 1
   end
