@@ -21,35 +21,9 @@ end
 def kesha_maker(array)
   i = 0
   while i < array.length
-  array[0, -1] = "$"
+  array[2] = "$"
   yield (array[i])
   i += 1
   end
   array
 end
-
-
-
-
-
-
-myString = "Welcome to JavaScript!"
-=> "Welcome to JavaScript!"
-
-myString[8..20]= "Ruby"
-=> "Ruby"
-
-puts myString
-=> "Welcome Ruby!"
-
-
-
-
-
-
-
-
-
-
-
-
